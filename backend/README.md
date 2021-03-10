@@ -21,3 +21,14 @@ O Retorno sempre é um JSON.
 * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos.
   - no code usa-se const params = request.body
 
+
+## Instalando o Query Builder
+```javascript
+  yarn add knex sqlite3
+```
+
+### Gerando o arquivo de config SQL
+```javascript
+  npx knex init
+```
+- Isso gera um arquivo de config na raiz chamado "knexfile.js"
