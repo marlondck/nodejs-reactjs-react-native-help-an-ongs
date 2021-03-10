@@ -56,4 +56,3 @@ O Retorno sempre é um JSON.
 - Deletar específicos casos
 - Listar específicos da ONG
 - Listar todos os casos
-- Entrar em contato com a ONG
