@@ -27,8 +27,33 @@ O Retorno sempre é um JSON.
   yarn add knex sqlite3
 ```
 
-### Gerando o arquivo de config SQL
+## Gerando o arquivo de config SQL
 ```javascript
   npx knex init
 ```
 - Isso gera um arquivo de config na raiz chamado "knexfile.js"
+
+### Entidades
+- ONG
+- Caso (incident)
+
+### Migrations
+- Configurar o diretorio de migrations no arquivo "knexfile.js"
+- Rodar no terminal
+```javascript
+  npx knex migrate:make create_ongs
+```
+-  Apos criar a estrutura da migration, rodar ela com 
+```javascript
+  npx knex migrate:latest 
+```
+
+## Funcionalidades
+- Login
+- Logout
+- Cadastro de ONG
+- Cadastrar novos casos da ONG
+- Deletar específicos casos
+- Listar específicos da ONG
+- Listar todos os casos
+- Entrar em contato com a ONG
